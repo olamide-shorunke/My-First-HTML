@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:darkgreen;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.lux-text{
+    text-align: center;
+    padding:2rem ;
+}
+
+#button{
+    gap: 2rem;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1, .button2, .button3{
+    background-color: white;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+

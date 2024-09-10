@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    background-color: blue;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.container > div{
+    background-color: rgb(224, 217, 217);
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    width: 150px;
+}
